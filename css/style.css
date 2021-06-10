@@ -28,20 +28,12 @@ h1 {
   left: 5%;
   font-family: 'Dancing Script', cursive, sans-serif;
   font-weight: bold;
-  line-height: 2.5rem;
+  line-height: 6vmin;
   font-size: 1.5rem;
   text-shadow:4px 4px 14px rgba(150, 150, 150, 1);
   color: #770000;
 }
 
-
-.carousel-caption {
-  position: absolute;
-  top: 0;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
 
 
 
@@ -54,12 +46,21 @@ h1 {
   background-color: #7d3f8a;
 }
 
-.carousel-control-next{
-  left: 110%;
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.carousel .carousel-item {
+  height: 500px;
 }
 
-.carousel-indicators {
-  left: 20%;
+.carousel-item img, 
+iframe {
+    min-height: 500px;
 }
 
 .carousel-inner h5 {
