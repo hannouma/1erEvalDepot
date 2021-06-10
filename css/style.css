@@ -1,0 +1,168 @@
+/*font-family: 'Dancing Script', cursive;
+  font-family: 'Jacques Francois', serif;*/
+
+body, html {
+  font-family: 'Jacques Francois', serif;
+  background-color: #faefff;
+}
+
+/*my banner*/
+.banner img {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+/*association name with the text that appears in the left of my banner */
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  text-shadow: 4px 4px 14px rgba(150, 150, 150, 1);
+  color: black;
+}
+
+.banner-text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  text-shadow:4px 4px 14px rgba(150, 150, 150, 1);
+  color: #770000;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.donation-card, .nav-bar {
+  border-radius: 12px;
+}
+
+.btn-custom, .actv-btn {
+  color: white;
+  background-color: #7d3f8a;
+}
+
+.carousel-control-next{
+  left: 110%;
+}
+
+.carousel-indicators {
+  left: 20%;
+}
+
+.carousel-inner h5 {
+  font-weight: bolder;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  
+}
+
+
+.search-text {
+	margin-top: 50px;
+	background-color: #33144d;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+	
+.search-text .input-search {
+	height: 45px;
+	width: 40%;
+	padding-left: 20px;
+} 
+
+.search-text .btn-search {
+    background: #7d3f8a ;
+    border: none;
+	  color: #FFF;
+	  height: 45px;
+    width: 90px;
+}
+
+.search-text h4 {
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: #80708f;
+    padding: 30px 0px;
+}	       
+
+.logo {
+    color: #FFF;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-weight: 550;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+ 
+.menu span {
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+ 
+.legal-notice li a, 
+.menu li a {
+    color: #FFF;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.legal-notice li, 
+.menu li {
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.legal-notice li a:hover, 
+.menu li a:hover {
+    color: #371f41;
+}
+
+.contact {
+  border-bottom: 1px solid #c7c7c7; 
+  padding: 10px 0px;
+  display: block;
+  padding-top: 4rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #7d3f8a;
+  color: #fff;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.back-to-top:hover, .bi:hover, .btn:hover, .btn-search:hover {
+  transform: translateY(0) scale(1.1);
