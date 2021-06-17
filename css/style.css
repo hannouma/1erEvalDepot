@@ -29,8 +29,9 @@ h1 {
   font-family: 'Dancing Script', cursive, serif;
   font-weight: bold;
   line-height: 6vmin;
+  letter-spacing: 1px;
   font-size: 1.5rem;
-  text-shadow:4px 4px 14px rgba(150, 150, 150, 1);
+  text-shadow:4px 4px 14px #969696;
   color: #770000;
 }
 
@@ -44,6 +45,11 @@ h1 {
 .btn-custom, .actv-btn {
   color: white;
   background: #7d3f8a;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /*Carousel style*/
