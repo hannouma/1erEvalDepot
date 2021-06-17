@@ -18,7 +18,7 @@ body, html {
 h1 {
   font-size: 4rem;
   font-weight: bolder;
-  text-shadow: 4px 4px 14px rgba(150, 150, 150, 1);
+  text-shadow: 4px 4px 14px #969696;
   color: black;
 }
 
@@ -26,7 +26,7 @@ h1 {
   position: absolute;
   top: 5%;
   left: 5%;
-  font-family: 'Dancing Script', cursive, sans-serif;
+  font-family: 'Dancing Script', cursive, serif;
   font-weight: bold;
   line-height: 6vmin;
   font-size: 1.5rem;
@@ -35,7 +35,7 @@ h1 {
 }
 
 
-
+/*donation card with the navbar style*/
 
 .donation-card, .nav-bar {
   border-radius: 12px;
@@ -43,10 +43,10 @@ h1 {
 
 .btn-custom, .actv-btn {
   color: white;
-  background-color: #7d3f8a;
+  background: #7d3f8a;
 }
 
-
+/*Carousel style*/
 .carousel-caption {
   position: absolute;
   top: 0;
@@ -70,7 +70,7 @@ iframe {
   
 }
 
-
+/*search space style*/
 .search-text {
 	margin-top: 50px;
 	background-color: #33144d;
@@ -97,6 +97,8 @@ iframe {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+/*Footer style*/
 
 footer {
     background-color: #80708f;
@@ -148,6 +150,7 @@ footer {
   padding-top: 4rem;
 }
 
+/*back to top button*/
 .back-to-top {
   position: fixed;
   bottom: 40px;
