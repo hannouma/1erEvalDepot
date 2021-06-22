@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Font-awesome-->  
+  <script src="https://kit.fontawesome.com/4a2591817e.js" crossorigin="anonymous"></script>
+<!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<!--BOOSTRAP-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Pays du cèdre</title>
+</head>
+
+<body>
+<!--HEADER begining-->
+    <header class="container-fluid p-0">
+        <div class="banner" id="banner">
+            <img src="../images/ban.jpg" alt="site banner">
+        </div>
+        <div class="banner-text">
+            <h1>Pour le pays du cèdre</h1>
+            <p class="fw-bolder">Explosions au port de Beyrouth<br>Une centaine de morts<br> Plus de 6 500 blessés, 
+                ainsi que neuf disparus<br>250 000 à 300 000 personnes se retrouvent sans logement<br>
+                « près de la moitié de Beyrouth est détruite ou endommagée » <br>
+                parmi les plus grosses explosions non-nucléaires de l’histoire
+            </p>
+        </div>
+    
+    </header>
+<!--HEADER end-->
+
+    <main>
+<!--Fil d'ariane-->
+        <div class="container-fluid">
+            <div class="row my-2 py-1 bg-light">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active lh-lg" aria-current="page">Acceuil</li>
+					</ol>
+				</nav>
+            </div>
+        </div>
+    
+<!--Side Navbar--> 
+        <div class="container-fluid">    
+            <div class="row min-vh-100 flex-column flex-md-row">
+                <aside class="col-12 col-md-3 flex-shrink-1 pt-4">
+                    <nav class="navbar shadow navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start py-2">
+                        <div class="collapse navbar-collapse">
+                            <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                                <li class="nav-item">
+                                    <a class="nav-link text-nowrap" href="#"><i class="fas fa-home"></i>
+                                         <span class="font-weight-bold">Acceuil</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-hand-holding-usd"></i>
+                                        <span class="d-none d-md-inline">Dons</span></a>                       
+                                </li>                        
+                                <li class="nav-item">                            
+                                    <a class="nav-link" href="#"><i class="fas fa-images"></i> 
+                                        <span class="d-none d-md-inline">Images</span></a>                        
+                                </li>                        
+                                <li class="nav-item">                            
+                                    <a class="nav-link" href="#"><i class="fas fa-calendar-alt"></i> 
+                                        <span class="d-none d-md-inline">Evenements</span></a>                        
+                                </li>                        
+                                <li class="nav-item">                            
+                                    <a class="nav-link" href="#"><i class="fas fa-address-book"></i>
+                                        <span class="d-none d-md-inline">Contacts</span></a>
+                            </ul>                
+                        </div>            
+                    </nav>
+<!--Donation card-->
+                    <div class="card shadow donation-card mt-4 pt-5" 
+                         style="background-image: linear-gradient(to bottom, #a17da8, #b49dc0, #cabed7, #e3deec, #ffffff);" >
+                        <div class="card-body text-center">
+                        <h5 class="card-title fw-bold fs-3">Faire un don</h5><hr>
+                        <p class="card-text">Donner est le moyen d'agir auprès les personnes en difficulté</p>
+                        <button type="button" class="btn btn-custom btn-md rounded-pill border-0" data-bs-toggle="modal" 
+                           data-bs-target="#exampleModal">Je donne</button>
+                    </div>
+                </aside>
+ <!--start of my carousel-->       
+                <section class="col col-md-9 py-3 flex-grow-1">            
+                    <div id="carouselExampleCaptions" class="carousel slide py-2" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/Beirut-explosions-damages1.jpg" class=" d-block w-100" 
+                                     alt="Damages caused by the explosion">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Port du Beyrouth</h5>
+                                    <p>Les destructions et les dégâts </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/explosion-damages2.jpg" class=" d-block w-100" 
+                                     alt="Damages caused by the explosion">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Port du Beyrouth</h5>
+                                    <p>Des dégâts importants et de nombreux morts.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/explosion-damages3.jpg" class=" d-block w-100" 
+                                     alt="Damages caused by the explosion">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Port du Beyrouth</h5>
+                                    <p>Dévastation après des explosions meurtrières.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/explosion-damages4.jpg" class=" d-block w-100" 
+                                     alt="Damages caused by the explosion">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>L'explosion au port du Beyrouth</h5>
+                                    <p>Plus de 6 500 blessés.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/beyrouth.jpg" class=" d-block w-100" 
+                                     alt="Image of Beirut before the explosion">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Liban / Suisse de Moyen-Orient</h5>
+                                    <p>Beyrouth avant l'explosion.</p>
+                                </div>
+                            </div>
+    <!--Carousel video-->
+                            <div class="carousel-item">
+                                <div class="ratio ratio-16x9"> 
+                                    <iframe width="950" height="480" src="https://www.youtube.com/embed/nwMMaS4YT_M" 
+                                            title="YouTube video player" frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>  
+                        </div>
+                        <button class="carousel-control-prev" 
+                                type="button" data-bs-target="#carouselExampleCaptions" 
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" 
+                                type="button" data-bs-target="#carouselExampleCaptions" 
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>    
+<!--End of my Carousel-->     
+            </div>
+        </div>
+
+<!--Its my section of three cards-->
+        <section class="container-fluid mb-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="card shadow p-3 mb-5 bg-body rounded h-100 text-center" >
+                        <img src="../images/aide-alimentaire.jpg" class="card-img-top" 
+                             alt="image of people donating alimentary products">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title fw-bold">Dons des produits alimentaires</h5>
+                            <p class="card-text">Pour donner des produits alimentaires.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="#" class="btn btn-custom d-grid gap-2">Participer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="card shadow p-3 mb-5 bg-body rounded h-100 text-center" >
+                        <img src="../images/don-du-sang.jpg" class="card-img-top" 
+                             alt="image of someone making a blood donation">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title fw-bold">Dons du sang</h5>
+                            <p class="card-text">Pour le don de sang.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="#" class="btn btn-custom d-grid gap-2">Participer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="card shadow p-3 mb-5 bg-body rounded h-100 text-center" >
+                        <img src="../images/dons-matériels.jpg" class="card-img-top" 
+                             alt="image of someone donating materials">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title fw-bold">Dons des matériels</h5>
+                            <p class="card-text">Pour faire don d'autres matériaux.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="#" class="btn btn-custom d-grid gap-2">Participer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Another section with Google map and more information -->
+        <section class="container-fluid">
+            <div class="row py-2 my-2">
+                <iframe class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3" width="565" height="434" id="gmap_canvas" 
+                        src="https://maps.google.com/maps?q=beyrouth,%20port%20,liban&t=k&z=9&ie=UTF8&iwloc=&output=embed" 
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h3 class="fw-bold">Infos pratiques:</h3>
+                    <ul>
+                        <li class="py-2">Coordinnées: Beyrouth, Liban</li>
+                        <li class="py-2">Retrouvez-nous:
+                            <ul class="list-unstyled list-inline pt-2">
+                                <li class="list-inline-item p-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" 
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </li>
+                                <li class="list-inline-item p-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" 
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </li>
+                                <li class="list-inline-item p-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" 
+                                    class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                                    </svg>
+                                </li>
+                                <li class="list-inline-item p-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" 
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>  
+                    <hr class="my-4">
+                    <a class="btn btn-custom btn-lg" href="https://fr.wikipedia.org/wiki/Beyrouth" 
+                       role="button" target="_blank">Voir Beyrouth sur Wikipedia</a>
+                </div>
+            </div>
+        </section>
+    </main>
+<!--my footer-->
+    <footer class="container-fluid">
+        <div class="search-text"> 
+            <div class="container">
+                <div class="row text-center">
+                    <div class="form">
+                        <h4 class="lh-lg">Je deviens benevole</h4>
+                        <form id="search-form" class="form-search form-horizontal">
+                            <input type="text" class="input-search" placeholder="Email Address">
+                            <button type="submit" class="btn-search">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>         
+            </div>     
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <span class="logo h-100 row align-items-center">Pour le pays du cèdre</span>
+                </div>
+               
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="menu"><span>Menu</span>    
+                        <li> <a href="#">Acceuil</a></li>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Nos guide</a></li>
+                        <li><a href="#">FAQ</a></li>  
+                    </ul>
+                </div>
+          
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="legal-notice">
+                        <li class="contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                                 class="bi bi-chat-dots text-white" viewBox="0 0 16 16">
+                            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
+                            </svg>
+                            <a href="#" class="mx-2">contactez-nous</a>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                                 class="bi bi-file-text text-white" viewBox="0 0 16 16">
+                                <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                            <a href="#" class="mx-2">Mentions légales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </footer>
+<!--Back to top button-->
+    <div class="back-to-top">
+        <a href="#banner">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" 
+                 class="bi bi-arrow-up text-white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+            </svg>
+        </a>
+    </div>
+
+<!--donation-modale-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Je donne :</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Votre Nom *" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Votre Prénom *" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" 
+                               aria-describedby="emailHelp" placeholder="Votre e-mail *">
+                        <div id="emailHelp" class="form-text">Votre email restera confidentiel.</div>
+                    </div>
+                    <div class=" col-12 mb-3">
+                        <label for="recipient-name" class="col-form-label">Tél:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Votre numéro de tél">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text">Commentaires: précisions sur le don autre... 
+                        </textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Check">
+                            <label class="form-check-label" for="Check">
+                                J'accept de recevoir des information sur "Pour le pays du cèdre" et l'utilisation de mes dons
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-custom">Valider votre don</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="css/bootstrap.bundle.min.js"></script>
+</html>
