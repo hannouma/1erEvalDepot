@@ -154,7 +154,8 @@ footer {
 }
 
 .legal-notice li a:hover, 
-.menu li a:hover {
+.menu li a:hover,
+.breadcrumb li a:hover {
     color: #371f41;
 }
 
