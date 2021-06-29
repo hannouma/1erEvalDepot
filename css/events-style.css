@@ -33,7 +33,7 @@ h3 {
 }
 
 .comments {
-    background-color:hsl(189, 75%, 81%);
+    background-color:#aae8f3;
 }
 
 .details {
@@ -53,9 +53,9 @@ main h4 {
 }
 
 .btns-box {
-    background-color: #f7caede7;
-    max-height: 20vh;
-    height: 20vh;
+    background-image: radial-gradient(circle, #aae8f3, #98cae2, #8eabcc, #878db0, #80708f);
+    max-height: 30vh;
+    height: 30vh;
     width: 95vw;
     max-width: 100vw;
 }
@@ -100,8 +100,8 @@ hr.divider {
 .search-text .btn-search {
     background: #7d3f8a ;
     border: none;
-	  color: #FFF;
-	  height: 45px;
+	color: #FFF;
+	height: 45px;
     width: 90px;
 }
 
@@ -110,6 +110,12 @@ hr.divider {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 575px){
+    input.input-search {
+    font-size: 3.5vmin;
+    }
+  }
 
 /*Footer style*/
 

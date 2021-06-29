@@ -1,5 +1,6 @@
 /*font-family: 'Dancing Script', cursive;
-  font-family: 'Jacques Francois', serif;*/
+  font-family: 'Jacques Francois', serif;
+  font-family: 'Poppins', sans-serif;*/
 
 body, html {
   font-family: 'Jacques Francois', serif;
@@ -12,27 +13,42 @@ body, html {
   max-width: 100%;
   position: relative;
   height: 500px;
+  opacity: 0.8;
 }
 
 /*association name with the text that appears in the left of my banner */
 h1 {
-  font-size: 4rem;
+  font-size: 8vmin;
   font-weight: bolder;
-  text-shadow: 4px 4px 14px #969696;
   color: black;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  text-shadow:4px 4px 14px #969696;
+  letter-spacing: 1px;
 }
 
 .banner-text {
   position: absolute;
-  top: 5%;
+  top: 16%;
   left: 5%;
-  font-family: 'Dancing Script', cursive, serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   line-height: 6vmin;
   letter-spacing: 1px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-shadow:4px 4px 14px #969696;
-  color: #770000;
+  color: #3d0f0f;
+}
+
+@media screen and (max-width:767px) {
+  .banner-text {
+    position: static;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: none; 
+  }
 }
 
 
@@ -40,6 +56,17 @@ h1 {
 
 .donation-card, .nav-bar {
   border-radius: 12px;
+}
+
+@media screen and (min-width: 903px) and (max-width: 991px) {
+  .donation-card {
+    padding-top: 5vh;
+  }
+}
+@media screen and (min-width: 1203px) {
+  .donation-card {
+    padding-top: 5vh;
+  }
 }
 
 .btn-custom, .actv-btn {
@@ -104,6 +131,11 @@ iframe {
     letter-spacing: 2px;
 }
 
+@media screen and (max-width: 575px){
+  input.input-search {
+  font-size: 3.5vmin;
+  }
+}
 /*Footer style*/
 
 footer {
