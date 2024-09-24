@@ -7,6 +7,10 @@ body, html {
   background-color: #faefff;
 }
 
+nav.navbar {
+  background-color:#7d3f8a;
+}
+
 /*my banner*/
 .banner img {
   width: 100%;
@@ -51,9 +55,7 @@ h1 {
   }
 }
 
-
 /*donation card with the navbar style*/
-
 .donation-card, .nav-bar {
   border-radius: 12px;
 }
@@ -209,3 +211,4 @@ footer {
 
 .back-to-top:hover, .bi:hover, .btn:hover, .btn-search:hover {
   transform: translateY(0) scale(1.1);
+}
